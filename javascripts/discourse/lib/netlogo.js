@@ -522,7 +522,7 @@ export default function(hljs)
 		case_insensitive: true,
 		keywords:
 		{
-			$pattern: /[a-z][a-z-]+/,
+			$pattern: /[a-z][a-z0-9-]+/,
 			built_in: commands,
 			"title.function": reporters,
 			keyword: keywords,
